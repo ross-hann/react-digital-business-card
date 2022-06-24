@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #1A1B21;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.profile-pic {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+    margin-top: 5px;    
+    font-family: 'Inter';
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.position {
+    margin-top: -25px;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.web {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.button {
+    width: 247px;
+    height: 34px;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.About {
+    width: 247px;
+    color: #F5F5F5;
+}
+
+.About > p {
+    margin-top: -20px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.Interest {
+    width: 247px;
+    color: #F5F5F5;
+}
+
+.Interest > p {
+    margin-top: -20px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.Footer {
+    padding-left: 20px;
+    padding-right: 20px;;
+    width: 317px;
+    height: 64px;
+    left: 770px;
+    top: 793px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    background: #918E9B;
+}
+
